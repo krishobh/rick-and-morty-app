@@ -1,6 +1,6 @@
-## Project setup
+# Rick and Morty App Project setup in loacal machine
 
-# Environments
+#### Environments
 * `node version v16.14.2`
 * `yarn version v1.22.18`
 ### `git clone git@github.com:krishobh/rick-and-morty-app.git`
