@@ -1,4 +1,4 @@
-# Rick and Morty App Project setup in loacal machine
+# Rick and Morty App Project setup.
 
 #### Environments
 * `node version v16.14.2`
