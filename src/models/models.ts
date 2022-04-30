@@ -1,5 +1,6 @@
 export interface Character {
     id: string,
     name: string,
-    image: string
+    image: string,
+    species: string
 }

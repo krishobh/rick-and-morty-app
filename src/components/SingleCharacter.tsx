@@ -16,7 +16,7 @@ const SingleCharacter: React.FC<Props> = ({character}) => {
                 hoverable
                 cover={<img alt={character.name} src={character.image}/>}
             >
-                <Meta title={character.name} description="" />
+                <Meta title={'Name : ' + character.name} description={'Species : '+ character.species}/>
             </Card>
         </Col>
   )

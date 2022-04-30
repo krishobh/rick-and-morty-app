@@ -31,6 +31,7 @@ const App:React.FC = () => {
                           id
                           name
                           image
+                          species
                       }
                   }
               }
