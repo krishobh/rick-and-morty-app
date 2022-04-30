@@ -4,13 +4,12 @@ import { Col, Card } from 'antd';
 const { Meta } = Card;
 
 interface Props {
-    character: Character,
-    key: string
+    character: Character
 }
 
-const SingleCharacter: React.FC<Props> = ({character, key}) => {
+const SingleCharacter: React.FC<Props> = ({character}) => {
   return (
-        <Col xs={5} key={key} style={{width:300, padding: 10}}>
+        <Col xs={5} style={{width:300, padding: 10}}>
             <Card
                 bordered={true}
                 style={{width:250, padding: 10}}
